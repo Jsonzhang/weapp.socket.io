@@ -261,11 +261,10 @@ WebSocket.prototype.removeEventListener = removeEventListener
  * @param {*} options
  */
 function initAsClient(websocket, address, protocols, options) {
-    const opts = {
+    const opts = Object.assign({
         maxPayload: 100 * 1024 * 1024,
         perMessageDeflate: true,
-        ...options
-    }
+    },options)}
     debug('initAsClient: opts: ', opts)
 
     websocket.url = address

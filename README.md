@@ -1,3 +1,5 @@
+<strong> Fork From <a href="<https://github.com/weapp-socketio/weapp.socket.io>">https://github.com/weapp-socketio/weapp.socket.io</a> </strong>
+
 <p align="center">
   <img src="https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4">
 </p>
@@ -26,10 +28,10 @@
   </a>
 </p>
 
-
 # Feature
 
 Full feature socket.io style implemented, based-on `socket.io@2.x` version, such as:
+
 - send message queue
 - auto reconnect
 - ping, pong
@@ -44,7 +46,7 @@ Full feature socket.io style implemented, based-on `socket.io@2.x` version, such
 If you use a third-party framework such as [wepy](https://github.com/Tencent/wepy), you should install via `npm`
 
 ```
-$ npm install weapp.socket.io
+npm install weapp.socket.io
 ```
 
 Or if you use the native way to write code，I recommend using `git clone`
